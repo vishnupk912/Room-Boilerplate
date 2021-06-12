@@ -55,11 +55,8 @@ public abstract class RoomDatabase extends androidx.room.RoomDatabase
         }
 
         @Override
-        protected Void doInBackground(Void... voids) {
-            noteDao.insert(new Notes("Title 1","description",1));
-            noteDao.insert(new Notes("Title 2","description1",2));
-            noteDao.insert(new Notes("Title 3","description2",3));
-            noteDao.insert(new Notes("Title 4","description3",4));
+        protected Void doInBackground(Void... voids)
+        {
             return null;
         }
     }

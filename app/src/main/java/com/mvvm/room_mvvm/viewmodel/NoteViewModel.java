@@ -11,7 +11,7 @@ import com.mvvm.room_mvvm.entity.Notes;
 
 import java.util.List;
 
-public class NoteViewModel extends AndroidViewModel
+public class  NoteViewModel extends AndroidViewModel
 {
     NoteRepo noteRepo;
     LiveData<List<Notes>> allnotes;
